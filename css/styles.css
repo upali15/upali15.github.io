@@ -1,0 +1,33 @@
+.jumbotron {
+    margin:15px;
+    background-color: #d1d1d1;
+}
+#fullname {
+    font-size: 55px;
+}
+.font-12 {
+    font-size: 12px;
+}
+.align-centre {
+    vertical-align: middle;
+    padding:25px;
+}
+#profile_picture {
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+    margin: auto;
+    display: block;
+    
+}
+.small-pad {
+    margin:0px 10px;
+}
+.border-black {
+    border:5px solid black;
+}
+
+.name-pad {
+    font-size: 40px;
+    padding: 1px 1px 10px 1px;
+}
