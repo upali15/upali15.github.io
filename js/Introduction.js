@@ -1,6 +1,9 @@
 'use strict';
 //inport {name,intro} from "./intro.json"
-import Intro from "./Intro.js";
+import Photo from "./Image.js";
+import Words from "./Description.js"
+import Line from "./Title.js";
+
 const e = React.createElement;
 const rend = ReactDOM.render;
 const ge = document.getElementById;
@@ -11,6 +14,53 @@ class Introduction extends React.Component
     {
         super(props);
     }
+    
+    render()
+    {
+        return e(
+            'div',
+            {className:"container"},
+            
+            e(
+                'div',
+                {className:"col-12 col-sm-3 align-centre hidden-sm hidden-xs"},
+                e(
+                    Photo,
+                    {
+                        clss:"img-flex",
+                        id:"me",
+                        path:this.props.path,
+                        alt:"profile picture"
+                    }
+                )
+            ),
+            e(
+                'div',
+                {className:"col-12 col-sm-9"},
+                e(
+                    Line,
+                    {
+                        type:'p',
+                        id:"fullname",
+                        clss:"page-header",
+                        text:this.props.fullname
+                    }
+                ),
+                e(
+                    Line,
+                    {
+                        type:'p',
+                        id:'myself',
+                        text:this.props.intro,
+                        clss:"font-12"
+                    }
+                )
+            )
+        );
+    }
+
+    /*
+     // the following code works perfectly:
     render()
     {
         //var j = JSON.parse("intro.json");
@@ -48,6 +98,6 @@ class Introduction extends React.Component
                 )
             )
         );
-    }
+    }*/
 }
 export default Introduction;
