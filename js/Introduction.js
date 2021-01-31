@@ -1,12 +1,10 @@
 'use strict';
 //inport {name,intro} from "./intro.json"
 import Photo from "./Image.js";
-import Words from "./Description.js"
-import Line from "./Title.js";
+import Line from "./Text.js";
 
 const e = React.createElement;
 const rend = ReactDOM.render;
-const ge = document.getElementById;
 
 class Introduction extends React.Component
 {
@@ -17,6 +15,9 @@ class Introduction extends React.Component
     
     render()
     {
+        var line1 = "Junior Post-graduate in Economics";
+        var line2 = "Bachelor of Science in Economics";
+        var line3 = "Presidency University, Kolkata-700073";
         return e(
             'div',
             {className:"container"},
@@ -50,8 +51,23 @@ class Introduction extends React.Component
                     Line,
                     {
                         type:'p',
-                        id:'myself',
-                        text:this.props.intro,
+                        text:line1,
+                        clss:"font-12"
+                    }
+                ),
+                e(
+                    Line,
+                    {
+                        type:'p',
+                        text:line2,
+                        clss:"font-12"
+                    }
+                ),
+                e(
+                    Line,
+                    {
+                        type:'p',
+                        text:line3,
                         clss:"font-12"
                     }
                 )
