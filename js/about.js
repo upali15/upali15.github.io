@@ -17,11 +17,51 @@ var des2 = 'Description of work';
 
 
 re(e(
-    Box,
-    {
-        className:"container",
-        style:'work color-1',
-        thumbnail:'img/presidency_logo.svg'
-    }),
+    'div',
+    {className:"container"},
+    e(
+        'div',
+        {className:"col-12 col-md-4"},
+        e(
+            Box,
+            {
+                title:title1,
+                caption:caption1,
+                description:des1,
+                style:'work color-2',
+                thumbnail:'img/coursera_logo.svg'
+                //coursera blue: #0056d2
+            }
+        ),
+    ),
+    e(
+        'div',
+        {className:"col-12 col-md-4"},
+        e(
+            Box,
+            {
+                title:title1,
+                caption:caption1,
+                description:des1,
+                style:'work color-1',
+                thumbnail:'img/presidency_logo.svg'
+            }
+        ),
+    ),
+    e(
+        'div',
+        {className:"col-12 col-md-4"},
+        e(
+            Box,
+            {
+                title:title1,
+                caption:caption1,
+                description:des1,
+                style:'work color-1',
+                thumbnail:'img/presidency_logo.svg'
+            }
+        ),
+    ),
+    ),
     document.getElementById("topabout")
 );
