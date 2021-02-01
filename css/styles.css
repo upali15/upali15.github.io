@@ -3,9 +3,9 @@
     background-color: #d1d1d1;
 }
 .work {
-    width:30%;
-    height:30%;
     padding:30px;
+    margin: 20px;
+    height:100%
     border-style:solid;
     border-radius:15px;
 }
@@ -13,14 +13,36 @@
     background-color: #34e36e;
     border-color: #34e356;
 }
+.color-2 {
+    background-color: #ed8c2b;
+    border-color: #ed8c2b;
+}
+.small-margin {
+    margin:10px;
+}
 #fullname {
     font-size: 55px;
 }
-.bold {
+.big-font {
+    font-size:45px;
+}
+.boldify {
     font-weight:bold;
 }
 .font-12 {
     font-size: 12px;
+}
+.font-18 {
+    font-size:18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-26 {
+    font-size: 26px;
+}
+.font-28 {
+    font-size: 28px;
 }
 .align-centre {
     vertical-align: middle;

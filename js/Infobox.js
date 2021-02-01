@@ -36,7 +36,8 @@ export default class Box extends React.Component
                     Line,
                     {
                         type:"h3",
-                        text:"Intercountry Comparison of Development Indices",
+                        clss:"font-20 boldify",
+                        text:this.props.title,
                         id:"btp"
                     },
                 ),
@@ -45,9 +46,9 @@ export default class Box extends React.Component
                     e(
                         Line,
                         {
-                            className:"border-black",
+                            clss:"font-24 boldify",
                             type:"h4",
-                            text:"Presidency University, Kolkata",
+                            text:this.props.caption,
                             id:"ugcollege"
                         }
                     ),
@@ -55,7 +56,8 @@ export default class Box extends React.Component
                         Line,
                         {
                             type:'p',
-                            text:'A comprehensive and comparative study of development indices of different contries along with development of a new index for comparison',
+                            clss:"font-18",
+                            text:this.props.description,
                             id:'btp-ug-description'
                         }
                     )
