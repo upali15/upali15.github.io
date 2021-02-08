@@ -17,6 +17,20 @@
     background-color: #ed8c2b;
     border-color: #ed8c2b;
 }
+#about {
+    background-color: #9ee2ff; 
+    padding:60px 30px;
+    font-family: Arial,Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
 .color-3 {
     background-color: #00c4ff;
     border-color: #00c4ff;
@@ -80,4 +94,8 @@
 .name-pad {
     font-size: 40px;
     padding: 1px 1px 10px 1px;
+}
+.hi {
+    font-weight:700px;
+    font-size:30px;
 }
