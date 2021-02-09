@@ -2,6 +2,8 @@
 import Box from "./Infobox.js";
 //const fs = require('fs');
 import Line from "./Text.js";
+import Clickable from "./Embed.js";
+import Photo from "./Image.js";
 const e = React.createElement;
 const re = ReactDOM.render;
 
@@ -10,6 +12,10 @@ var abt2 = "A graduate data analyst and data scientist majoring in Economics, I 
 var abt3 = "I am experienced in Econometrics and Financial Analysis, and use data visualization techniques to present the results. I use MS Excel, R and Stata for my data projects.";
 var abt4 = "Currently a Market Analyst Intern in Vodafone-Idea, I am pursuing an M. Sc in Applied Economics from the Presidency University, Kolkata.";
 
+/*
+ *
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+ */
 
 
 //var abt;
@@ -23,45 +29,43 @@ var title1 = "Intercountry Comparison of Development Indices";
 var caption1 = 'Presidency University, Kolkata';
 var des1 = 'A comprehensive and comparative study of development indices of different contries along with development of a new index for comparison';
 var title2 = 'Python and Statistics for Financial Analysis';
-var caption2 = e(
-    'a',
-    {href:'https://https://www.linkedin.com/in/upali-deb-023235150/',
-        target:'_blank'},
-    "Coursera"
-);
+var caption2 = e( Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Coursera"});
 var des2 = 'Course focussing on learning concepts of Python to perform Statistical Analysis of data with in-depth implementation of Financial Data Analysis';
 var title3 = 'Market Analyst Internship';
-var caption3 = e(
-    'a',
-    {href:'https://https://www.linkedin.com/in/upali-deb-023235150/',
-        target:'_blank'},
-    "Vodafone Idea"
-);
+var caption3 = e(Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Vodafone-Idea"});
 var des3 = 'Description of work';
 
 re(
     e(
         'div',
-        {className:'row'},
+        {className:'row'},// color: #023ab8
         e(
             'div',
             {className:'col-12 col-sm-6 hidden-sm hidden-xs'},
-            null
+            e(
+                Photo,
+                {
+                    id:'stock',
+                    path:"img/stock.gif",
+                    alt:"Sample Photo",
+                    clss:'fill'
+                }
+            )
         ),
         e(
             'div',
-            {className:'col-12 col-sm-6 hidden-sm hidden-xs'},
+            {className:'col-12 col-sm-6 norm'},
             e(
                 Line,{clss:'hi',type:'p',text:abt1, id:'me1'}
             ),
             e(
-                Line,{type:'p',text:abt2, id:'me2'}
+                Line,{clss:'para',type:'p',text:abt2, id:'me2'}
             ),
             e(
-                Line,{type:'p',text:abt3, id:'me3'}
+                Line,{clas:'para',type:'p',text:abt3, id:'me3'}
             ),
             e(
-                Line,{type:'p',text:abt4, id:'me4'}
+                Line,{clss:'para', type:'p',text:abt4, id:'me4'}
             )
         )
     ),
