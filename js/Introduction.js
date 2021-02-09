@@ -20,7 +20,7 @@ class Introduction extends React.Component
         var line3 = "Presidency University, Kolkata-700073";
         return e(
             'div',
-            {className:"container"},
+            {className:"container intpad"},
             
             e(
                 'div',

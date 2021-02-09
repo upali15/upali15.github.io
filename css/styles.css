@@ -112,3 +112,11 @@
 .norm {
     padding:0px 10px 0px 10px;
 }
+
+.intpad {
+    background-color:#ffffff;
+    padding: 20px;
+    border-color:black;
+    border-style:solid;
+    border-radius:25px;
+}
