@@ -20,8 +20,7 @@ class Introduction extends React.Component
         var line3 = "Presidency University, Kolkata-700073";
         return e(
             'div',
-            {className:"container intpad"},
-            
+            {className:"row intpad"},
             e(
                 'div',
                 {className:"col-12 col-sm-3 align-centre hidden-sm hidden-xs"},
@@ -31,7 +30,7 @@ class Introduction extends React.Component
                         clss:"img-flex",
                         id:"me",
                         path:this.props.path,
-                        alt:"profile picture"
+                        alt:"Profile Picture"
                     }
                 )
             ),
@@ -52,7 +51,7 @@ class Introduction extends React.Component
                     {
                         type:'p',
                         text:line1,
-                        clss:"font-12"
+                        clss:"description"
                     }
                 ),
                 e(
@@ -60,7 +59,7 @@ class Introduction extends React.Component
                     {
                         type:'p',
                         text:line2,
-                        clss:"font-12"
+                        clss:"description"
                     }
                 ),
                 e(
@@ -68,7 +67,7 @@ class Introduction extends React.Component
                     {
                         type:'p',
                         text:line3,
-                        clss:"font-12"
+                        clss:"description"
                     }
                 )
             )

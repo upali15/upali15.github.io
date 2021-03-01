@@ -29,20 +29,19 @@ var des2 = 'Course focussing on learning concepts of Python to perform Statistic
 var title3 = 'Market Analyst Internship';
 var caption3 = e(Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Vodafone-Idea"});
 var des3 = 'Description of work';
-
 re(e(
     'div',
     {className:"container"},
     e(
         'div',// Coursera Certificate for something
-        {className:"col-12 col-md-4"},
+        {className:"col-12"},
         e(
             Box,
             {
                 title:title2,
                 caption:caption2,
                 description:des2,
-                style:'work color-2',
+                style:'color-2',
                 thumbnail:'img/coursera_logo.svg'
                 //coursera blue: #0056d2
             }
@@ -50,28 +49,28 @@ re(e(
     ),
     e(
         'div',
-        {className:"col-12 col-md-4"},
+        {className:"col-12"},
         e(
             Box,
             {
                 title:title1,
                 caption:caption1,
                 description:des1,
-                style:'work color-1',
+                style:'color-1',
                 thumbnail:'img/presidency_logo.svg'
             }
         ),
     ),
     e(
         'div',
-        {className:"col-12 col-md-4"},
+        {className:"col-12"},
         e(
             Box,
             {
                 title:title3,
                 caption:caption3,
                 description:des3,
-                style:'work color-3',
+                style:'color-3',
                 thumbnail:'img/vodafone_logo.svg'
             }
         ),

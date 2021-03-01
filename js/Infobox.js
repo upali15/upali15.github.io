@@ -14,11 +14,11 @@ export default class Box extends React.Component
         return e(
             'div',
             {
-                className:this.props.style
+                className:'row work ' + this.props.style
             },
             e(
                 'div',
-                null,
+                {className:'col-12 col-sm-4 col-md-3'},
                 e(
                     Photo,
                     {
@@ -31,14 +31,14 @@ export default class Box extends React.Component
             ),
             e(
                 'div',
-                null,
+                {className:'col-12 col-sm-8 col-md-9'},
                 e(
                     Line,
                     {
                         type:"h3",
                         clss:"font-20 boldify",
                         text:this.props.title,
-                        id:"btp"
+                        id:"project-name"
                     },
                 ),
                 e(
@@ -49,7 +49,7 @@ export default class Box extends React.Component
                             clss:"font-24 boldify",
                             type:"h4",
                             text:this.props.caption,
-                            id:"ugcollege"
+                            id:"institution"
                         }
                     ),
                     e(
@@ -58,7 +58,7 @@ export default class Box extends React.Component
                             type:'p',
                             clss:"font-18",
                             text:this.props.description,
-                            id:'btp-ug-description'
+                            id:'description'
                         }
                     )
                 )

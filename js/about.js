@@ -41,7 +41,7 @@ re(
         {className:'row'},// color: #023ab8
         e(
             'div',
-            {className:'col-12 col-sm-6 hidden-sm hidden-xs'},
+            {className:'col-12 col-sm-6 hidden-sm hidden-xs giffill'},
             e(
                 Photo,
                 {
@@ -54,7 +54,7 @@ re(
         ),
         e(
             'div',
-            {className:'col-12 col-sm-6 norm'},
+            {className:'col-12 col-sm-6 norm sidecolor'},
             e(
                 Line,{clss:'hi',type:'p',text:abt1, id:'me1'}
             ),
