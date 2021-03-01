@@ -25,16 +25,6 @@ var abt4 = "Currently a Market Analyst Intern in Vodafone-Idea, I am pursuing an
 //fs.readFile('Input.txt', (err, data) => { if (err) throw err; console.log(data.toString()); }) 
 
 
-var title1 = "Intercountry Comparison of Development Indices";
-var caption1 = 'Presidency University, Kolkata';
-var des1 = 'A comprehensive and comparative study of development indices of different contries along with development of a new index for comparison';
-var title2 = 'Python and Statistics for Financial Analysis';
-var caption2 = e( Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Coursera"});
-var des2 = 'Course focussing on learning concepts of Python to perform Statistical Analysis of data with in-depth implementation of Financial Data Analysis';
-var title3 = 'Market Analyst Internship';
-var caption3 = e(Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Vodafone-Idea"});
-var des3 = 'Description of work';
-
 re(
     e(
         'div',

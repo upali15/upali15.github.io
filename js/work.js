@@ -33,17 +33,16 @@ re(e(
     'div',
     {className:"container"},
     e(
-        'div',// Coursera Certificate for something
+        'div',
         {className:"col-12"},
         e(
             Box,
             {
-                title:title2,
-                caption:caption2,
-                description:des2,
-                style:'color-2',
-                thumbnail:'img/coursera_logo.svg'
-                //coursera blue: #0056d2
+                title:title3,
+                caption:caption3,
+                description:des3,
+                style:'color-3',
+                thumbnail:'img/vodafone_logo.svg'
             }
         ),
     ),
@@ -62,19 +61,20 @@ re(e(
         ),
     ),
     e(
-        'div',
+        'div',// Coursera Certificate for something
         {className:"col-12"},
         e(
             Box,
             {
-                title:title3,
-                caption:caption3,
-                description:des3,
-                style:'color-3',
-                thumbnail:'img/vodafone_logo.svg'
+                title:title2,
+                caption:caption2,
+                description:des2,
+                style:'color-2',
+                thumbnail:'img/coursera_logo.svg'
+                //coursera blue: #0056d2
             }
         ),
-    ),
+    )
     ),
     document.getElementById("work")
 );
