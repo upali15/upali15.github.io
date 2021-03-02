@@ -11,7 +11,7 @@ rend(e(
     Introduction,
     {
         fullname:'Upali Deb',
-        path:"img/profile.svg"
+        path:"img/profile.png"
     }),
     document.getElementById("intro")
 );

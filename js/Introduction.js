@@ -20,23 +20,23 @@ class Introduction extends React.Component
         var line3 = "Presidency University, Kolkata-700073";
         return e(
             'div',
-            {className:"row"},
+            {className:"container"},
             e(
                 'div',
                 {className:"col-12 col-sm-3 align-centre hidden-xs hidden-sm"},
                 e(
                     Photo,
                     {
-                        clss:"img-flex",
+                        clss:"img-flex round",
                         id:"me",
-                        path:this.props.path,
+                        path:'img/profile.png',
                         alt:"Profile Picture"
                     }
                 )
             ),
             e(
                 'div',
-                {className:"col-12 col-sm-9"},
+                {className:"col-12 col-sm-9 up-pad"},
                 e(
                     Line,
                     {
@@ -72,7 +72,7 @@ class Introduction extends React.Component
                 ),
                 e(
                     'div',
-                    {className:'btn-group'},
+                    {className:'social'},
                     e(
                         Button,
                         {
@@ -87,10 +87,10 @@ class Introduction extends React.Component
                     e(
                         Button,
                         {
-                            css:'btn btn-danger social-media-buttons',
-                            text:' Instagram',
-                            type:'fab fa-instagram',
-                            link:'https://www.instagram.com/_upali.15_/',
+                            css:'btn social-media-buttons facebook',
+                            text:' Facebook',
+                            type:'fab fa-facebook',
+                            link:'https://www.facebook.com/upali.deb.3',
                             target:'_blank',
                             alt:'Hello, facebook'
                         }
