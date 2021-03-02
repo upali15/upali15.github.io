@@ -41,6 +41,20 @@
     color:#ffffff;
     display:flex;
 }
+a.social-media-buttons{
+    padding:10px 40px;
+    font-weight:600;
+    font-size:17.2px;
+    font-color:black;
+    color:white;
+}
+a.insta {
+    background-color:rgba(138,58,185,0.7);
+}
+a.insta:hover {
+    color:white;
+    background-color:rgba(138,58,185,0.75);
+}
 /*
 .giffill {
     flex:1;
@@ -130,7 +144,7 @@
     padding:0px 10px 0px 10px;
 }
 
-.intpad {
+#intro {
     background-color:#ffffff;
     margin:0px 20px 0px 20px;
     padding: 20px;

@@ -31,7 +31,7 @@ re(
         {className:'row'},// color: #023ab8
         e(
             'div',
-            {className:'col-12 col-sm-6 hidden-sm hidden-xs giffill'},
+            {className:'col-12 col-sm-6 hidden-xs hidden-sm giffill'},
             e(
                 Photo,
                 {

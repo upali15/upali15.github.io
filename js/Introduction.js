@@ -2,7 +2,7 @@
 //inport {name,intro} from "./intro.json"
 import Photo from "./Image.js";
 import Line from "./Text.js";
-
+import Button from "./Button.js";
 const e = React.createElement;
 const rend = ReactDOM.render;
 
@@ -20,10 +20,10 @@ class Introduction extends React.Component
         var line3 = "Presidency University, Kolkata-700073";
         return e(
             'div',
-            {className:"row intpad"},
+            {className:"row"},
             e(
                 'div',
-                {className:"col-12 col-sm-3 align-centre hidden-sm hidden-xs"},
+                {className:"col-12 col-sm-3 align-centre hidden-xs hidden-sm"},
                 e(
                     Photo,
                     {
@@ -69,9 +69,36 @@ class Introduction extends React.Component
                         text:line3,
                         clss:"description"
                     }
+                ),
+                e(
+                    'div',
+                    {className:'btn-group'},
+                    e(
+                        Button,
+                        {
+                            css:'btn social-media-buttons insta',
+                            text:' Instagram',
+                            type:'fab fa-instagram',
+                            link:'https://www.instagram.com/_upali.15_/',
+                            target:'_blank',
+                            alt:'Hello, facebook'
+                        }
+                    ),
+                    e(
+                        Button,
+                        {
+                            css:'btn btn-danger social-media-buttons',
+                            text:' Instagram',
+                            type:'fab fa-instagram',
+                            link:'https://www.instagram.com/_upali.15_/',
+                            target:'_blank',
+                            alt:'Hello, facebook'
+                        }
+                    )
                 )
             )
         );
     }
 }
 export default Introduction;
+//<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

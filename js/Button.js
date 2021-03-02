@@ -1,3 +1,4 @@
+'use strict'
 const e = React.createElement;
 
 export default class Button extends React.Component
@@ -6,19 +7,20 @@ export default class Button extends React.Component
     render()
     {
         return e(
-            "button",
+            'a',
             {
-                type: "button",
-                className: this.props.css
+                className: this.props.css,
+                href:this.props.link,
+                target:this.props.target,
+                alt:this.props.alt
             },
             e(
                 "i",
                 {
-                    className: "fa fa-" + this.props.profile,
-                    "aria-hidden": "true"
+                    className: this.props.type,
                 }
             ),
-            "Hello"
+            this.props.text
         );
     }
 }
