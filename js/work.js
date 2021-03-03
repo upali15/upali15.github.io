@@ -28,7 +28,7 @@ var caption2 = e( Clickable, {href:'https://https://www.linkedin.com/in/upali-de
 var des2 = 'Course focussing on learning concepts of Python to perform Statistical Analysis of data with in-depth implementation of Financial Data Analysis';
 var title3 = 'Market Analyst Internship';
 var caption3 = e(Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Vodafone-Idea"});
-var des3 = 'Description of work';
+var des3 = 'Studied the variation of contacts from different telecommunication services and how these services interact with customers. Analyzed the customer interaction and developed models';
 re(e(
     'div',
     {className:"container"},

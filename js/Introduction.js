@@ -76,21 +76,20 @@ class Introduction extends React.Component
                     e(
                         Button,
                         {
-                            css:'btn social-media-buttons insta',
-                            text:' Instagram',
-                            type:'fab fa-instagram',
-                            link:'https://www.instagram.com/_upali.15_/',
-                            target:'_blank',
-                            alt:'Hello, facebook'
+                            css:'btn social-media-buttons insta page-links',
+                            text:' About Myself',
+                            type:'fa fa-info-circle',
+                            link:'#about',
+                            alt:'About Myself'
                         }
                     ),
                     e(
                         Button,
                         {
-                            css:'btn social-media-buttons facebook',
-                            text:' Facebook',
-                            type:'fab fa-facebook',
-                            link:'https://www.facebook.com/upali.deb.3',
+                            css:'btn social-media-buttons linkedin',
+                            text:' LinkedIn',
+                            type:'fab fa-linkedin',
+                            link:'https://www.linkedin.com/in/upali-deb-023235150/',
                             target:'_blank',
                             alt:'Hello, facebook'
                         }
