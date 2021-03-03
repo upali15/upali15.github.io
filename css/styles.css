@@ -1,3 +1,6 @@
+/*html {
+    scroll-behavior: smooth;
+}*/
 .jumbotron {
     margin:10px;
     background-color: #d1d1d1;
@@ -54,16 +57,23 @@
     color:#ffffff;
     display:flex;
 }
-a.social-media-buttons{
+a.page-links, a.page-links:active, a.page-links:visited a.page-links:hover{
+    scroll-behavior: [ auto | smooth ];
+}
+a.social-media-buttons {
+    height:50px;
+    width:300px;
+    line-height:27px;
     padding:10px 40px;
-    border-radius:8px;
-    margin:0px 20px 0px 0px;
+    border-radius:25px;
+    margin:10px 20px 10px 0px;
     font-weight:600;
     font-size:17.2px;
     font-color:black;
     color:white;
 }
 a.insta, a.insta:visited {
+    color:white;
     background-color:rgba(138,58,185,0.7);
     border-color:rgba(138,58,185,0.7);
 }
@@ -72,11 +82,12 @@ a.insta:hover {
     background-color:rgba(138,58,185,0.75);
     border-color:rgba(138,58,185,0.75);
 }
-a.facebook, a.facebook:hover {
+a.linkedin, a.linkedin:hover, a.linkedin:focus, a.linkedin:visited {
+    color:white;
     background-color:rgba(59,89,152,1);
     border-color:rgba(59,89,152,1);
 }
-a.facebook:hover {
+a.linkedin:hover {
     color:white;
     background-color:rgba(59,89,180,1);
     border-color:rgba(59,89,180,1);

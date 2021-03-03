@@ -9,6 +9,7 @@ export default class Button extends React.Component
         return e(
             'a',
             {
+                type:'button',
                 className: this.props.css,
                 href:this.props.link,
                 target:this.props.target,
@@ -17,7 +18,14 @@ export default class Button extends React.Component
             e(
                 "i",
                 {
-                    className: this.props.type,
+                    className: this.props.type
+                }
+            ),
+            e(
+                'img',
+                {
+                    src:this.props.imgsrc,
+                    onClick:this.props.exec
                 }
             ),
             this.props.text
