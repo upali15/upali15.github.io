@@ -9,7 +9,7 @@ const re = ReactDOM.render;
 
 var abt1 = "Hi, I'm Upali!";
 var abt2 = "A graduate data analyst and data scientist majoring in Economics, I translate data into valuable and comprehensible insights. My goal is to improve results, make the right decisions and save costs.";
-var abt3 = "I am experienced in Econometrics and Financial Analysis, and use data visualization techniques to present the results. I use MS Excel, R and Stata for my data projects.";
+var abt3 = "I specialize in Econometrics and Financial Analysis and use sophisticated data visualization techniques to present the results. I use MS Excel, R and Stata for my data projects.";
 var abt4 = "Currently a Market Analyst Intern in Vodafone-Idea, I am pursuing an M. Sc in Applied Economics from the Presidency University, Kolkata.";
 
 /*
