@@ -70,6 +70,7 @@ class Introduction extends React.Component
                         clss:"description"
                     }
                 ),
+            ),
                 e(
                     'div',
                     {className:'social'},
@@ -77,10 +78,20 @@ class Introduction extends React.Component
                         Button,
                         {
                             css:'btn social-media-buttons insta page-links',
-                            text:' About Myself',
+                            text:' About',
                             type:'fa fa-info-circle',
                             link:'#about',
                             alt:'About Myself'
+                        }
+                    ),
+                    e(
+                        Button,
+                        {
+                            css:'btn social-media-buttons background',
+                            text:' Background',
+                            type:'fa fa-list-alt',
+                            link:'#work',
+                            alt:'Hello, facebook'
                         }
                     ),
                     e(
@@ -91,12 +102,22 @@ class Introduction extends React.Component
                             type:'fab fa-linkedin',
                             link:'https://www.linkedin.com/in/upali-deb-023235150/',
                             target:'_blank',
-                            alt:'Hello, facebook'
+                            alt:'Linkedin'
+                        }
+                    ),
+                    e(
+                        Button,
+                        {
+                            css:'btn social-media-buttons github',
+                            text:' Github',
+                            type:'fab fa-github',
+                            link:'https://github.com/upali15',
+                            target:'_blank',
+                            alt:'Github'
                         }
                     )
                 )
-            )
-        );
+            );
     }
 }
 export default Introduction;
