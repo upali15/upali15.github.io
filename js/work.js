@@ -24,10 +24,10 @@ var title1 = "Intercountry Comparison of Development Indices";
 var caption1 = 'Presidency University, Kolkata';
 var des1 = 'A comprehensive and comparative study of development indices of different contries along with development of a new index for comparison';
 var title2 = 'Python and Statistics for Financial Analysis';
-var caption2 = e( Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Coursera"});
+var caption2 = "Coursera";
 var des2 = 'Course focussing on learning concepts of Python to perform Statistical Analysis of data with in-depth implementation of Financial Data Analysis';
 var title3 = 'Market Analyst Internship';
-var caption3 = e(Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Vodafone-Idea"});
+var caption3 = "Vodafone-Idea";
 var des3 = 'Studied the variation of contacts from different telecommunication services and how these services interact with customers. Analyzed the customer interaction and developed models';
 re(e(
     'div',null,
