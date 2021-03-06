@@ -19,7 +19,7 @@ const re = ReactDOM.render;
 
 //fs.readFile('Input.txt', (err, data) => { if (err) throw err; console.log(data.toString()); }) 
 
-
+var workintro = 'Work smart and learn smart has always been my motto in my life. My dedication to learning and application has earned me a position as a Market analyst intern in Vodafone-Idea. The following are some experiences I have and academic certifications that I have earned.';
 var title1 = "Intercountry Comparison of Development Indices";
 var caption1 = 'Presidency University, Kolkata';
 var des1 = 'A comprehensive and comparative study of development indices of different contries along with development of a new index for comparison';
@@ -30,6 +30,16 @@ var title3 = 'Market Analyst Internship';
 var caption3 = e(Clickable, {href:'https://https://www.linkedin.com/in/upali-deb-023235150/', target:'_blank',text:"Vodafone-Idea"});
 var des3 = 'Studied the variation of contacts from different telecommunication services and how these services interact with customers. Analyzed the customer interaction and developed models';
 re(e(
+    'div',null,
+    e(
+        Line,
+        {
+            type:'h3',
+            text:workintro,
+            clss:'workintro'
+        }
+    ),
+    e(
     'div',
     {className:"container"},
     e(
@@ -75,6 +85,7 @@ re(e(
             }
         ),
     )
-    ),
+    )
+),
     document.getElementById("work")
 );
