@@ -56,7 +56,7 @@ export default class Box extends React.Component
                         Line,
                         {
                             type:'p',
-                            clss:"font-18",
+                            clss:"description",
                             text:this.props.description,
                             id:'description'
                         }
