@@ -1,0 +1,21 @@
+{
+  "name": "upali15.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website to be hosted on GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "keywords": [
+    "javascript",
+    "reactjs",
+    "bootstrap"
+  ],
+  "author": "Pratyay Pande",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

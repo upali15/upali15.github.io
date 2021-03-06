@@ -1,0 +1,226 @@
+/*html {
+    scroll-behavior: smooth;
+}*/
+.navbar {
+    border-radius:0px;
+}
+.jumbotron {
+    margin:10px;
+    background-color: #d1d1d1;
+}
+.work {
+    padding:30px;
+    margin: 20px 0px;
+    height:100%;
+    border-style:solid;
+    border-radius:15px;
+}
+.fill {
+    width:90%;
+    height:90%;
+}
+.color-1 {
+    background-color: #34e36e;
+    border-color: #34e356;
+}
+.color-2 {
+    background-color: #ed8c2b;
+    border-color: #ed8c2b;
+}
+.color-3 {
+    background-color: #00c4ff;
+    border-color: #00c4ff;
+}
+.navbar {
+    margin:0px;
+}
+.up-pad {
+    padding: 20px 0px 0px 30px;
+}
+#intro {
+    background-image:linear-gradient(yellow, rgba(255,255,255,0.9));
+    padding: 0px 40px;
+    /*border-color:black;
+    border-style:solid;
+    border-radius:25px;*/
+}
+#about {
+    background-color:#023ab8;
+    padding:60px 30px;
+    font-family: Arial,Georgia, serif;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    /*color: #ffffff;*/
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color:#ffffff;
+    display:flex;
+}
+#work {
+    background-color:rgba(190,249,250,0.21);
+}
+a.page-links, a.page-links:active, a.page-links:visited a.page-links:hover{
+    scroll-behavior: [ auto | smooth ];
+}
+a.social-media-buttons {
+    height:50px;
+    width:253px;
+    line-height:27px;
+    padding:10px 20px;
+    border-radius:25px;
+    margin:17px 20px 10px 0px;
+    font-weight:600;
+    font-size:17.2px;
+    font-color:black;
+    color:white;
+    transition: transform .3s;
+}
+a.social-media-buttons:hover {
+    transform:scale(1.02);
+}
+a.insta, a.insta:hover, a.insta:focus, a.insta:visited{
+    color:white;
+    background-color:rgba(138,58,185,0.72);
+    border-color:rgba(138,58,185,0.72);
+}
+a.insta:hover {
+    color:white;
+    background-color:rgba(138,58,185,0.68);
+    border-color:rgba(138,58,185,0.68);
+}
+a.linkedin, a.linkedin:hover, a.linkedin:focus, a.linkedin:visited {
+    color:white;
+    background-color:rgba(59,89,152,1);
+    border-color:rgba(59,89,152,1);
+}
+a.linkedin:hover {
+    color:white;
+    background-color:rgba(59,89,180,1);
+    border-color:rgba(59,89,180,1);
+}
+a.github, a.github:focus, a.github:active, a.github:visited {
+    color:white;
+    background-color:rgba(19,19,19,0.9);
+    border-color:rgba(19,19,19,0.9);
+}
+a.github:hover {
+    color:white;
+    background-color:rgba(19,19,19,0.84);
+    border-color:rgba(19,19,19,0.84);
+}
+/*
+.giffill {
+    flex:1;
+    background-color:#023ab8;
+}
+.sidecolor {
+    flex:1;
+    padding:1em;
+    background-color:#023a23;
+}
+*/
+.small-margin {
+    margin:10px;
+}
+#fullname {
+    font-size: 65px;
+}
+.big-font {
+    font-size:45px;
+}
+.boldify {
+    font-weight:bold;
+}
+.font-12 {
+    font-size: 12px;
+}
+.description {
+    font-size:18px;
+    letter-spacing:0.4px;
+}
+.font-18 {
+    font-size:18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-26 {
+    font-size: 26px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.align-centre {
+    vertical-align: middle;
+    padding:25px;
+}
+#stock {
+    vertical-align: middle;
+}
+#profile_picture {
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+    margin: auto;
+    display: block;
+    
+}
+.about-box {
+    padding:30px;
+    border-color:black;
+    border-style:solid;
+    
+}
+.img-flex {
+    width:100%;
+    height:100%;
+}
+.small-pad {
+    margin:0px 0px;
+}
+.border-black {
+    border:5px solid black;
+}
+.name-pad {
+    font-size: 40px;
+    padding: 1px 1px 10px 1px;
+}
+.para {
+    padding:14px 0px 14px 0px;
+}
+.hi {
+    font-weight:700px;
+    font-size:40px;
+    padding:0px 0px 30px 0px;
+}
+.norm {
+    padding:0px 10px 0px 10px;
+}
+.round {
+    border-radius:50%;
+}
+.social {
+    align-items:center;
+    justify-content:center;
+    padding:20px 2%;
+}
+.workintro {
+    padding:30px 250px;
+    text-align:justify;
+    margin:0px 0px 10px 0px;
+    background-color:rgba(160,250,250,0.2);
+}
+a.background, a.background:active, a.background:visited, a.background:focus {
+    color:white;
+    background-color:#d42700;
+    border-color:#d42700;
+}
+a.background:hover {
+    color:white;
+    background-color:#d92800;
+    border-color:#d92800;
+}
