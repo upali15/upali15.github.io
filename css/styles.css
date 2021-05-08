@@ -38,7 +38,7 @@
     padding: 20px 0px 0px 30px;
 }
 #intro {
-    background-image:linear-gradient(yellow, rgba(255,255,255,0.9));
+    background-image:linear-gradient(rgb(90, 192, 90), rgba(23, 97, 0, 0.9));
     padding: 0px 40px;
     /*border-color:black;
     border-style:solid;
