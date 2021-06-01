@@ -63,9 +63,6 @@
 #work {
     background-color:rgba(190,249,250,0.21);
 }
-/*a.page-links, a.page-links:active, a.page-links:visited a.page-links:hover{
-    scroll-behavior: [ auto | smooth ];
-}*/
 a.social-media-buttons {
     height:50px;
     width:253px;
@@ -112,17 +109,6 @@ a.github:hover {
     background-color:rgba(19,19,19,0.84);
     border-color:rgba(19,19,19,0.84);
 }
-/*
-.giffill {
-    flex:1;
-    background-color:#023ab8;
-}
-.sidecolor {
-    flex:1;
-    padding:1em;
-    background-color:#023a23;
-}
-*/
 .small-margin {
     margin:10px;
 }
