@@ -38,7 +38,7 @@
     padding: 20px 0px 0px 30px;
 }
 #intro {
-    background-image:linear-gradient(yellow, rgba(255,255,255,0.9));
+    background-image:linear-gradient(rgb(90, 192, 90), rgba(23, 97, 0, 0.9));
     padding: 0px 40px;
     /*border-color:black;
     border-style:solid;
@@ -63,9 +63,6 @@
 #work {
     background-color:rgba(190,249,250,0.21);
 }
-a.page-links, a.page-links:active, a.page-links:visited a.page-links:hover{
-    scroll-behavior: [ auto | smooth ];
-}
 a.social-media-buttons {
     height:50px;
     width:253px;
@@ -75,7 +72,7 @@ a.social-media-buttons {
     margin:17px 20px 10px 0px;
     font-weight:600;
     font-size:17.2px;
-    font-color:black;
+    color:black;
     color:white;
     transition: transform .3s;
 }
@@ -112,17 +109,6 @@ a.github:hover {
     background-color:rgba(19,19,19,0.84);
     border-color:rgba(19,19,19,0.84);
 }
-/*
-.giffill {
-    flex:1;
-    background-color:#023ab8;
-}
-.sidecolor {
-    flex:1;
-    padding:1em;
-    background-color:#023a23;
-}
-*/
 .small-margin {
     margin:10px;
 }
@@ -173,7 +159,6 @@ a.github:hover {
     padding:30px;
     border-color:black;
     border-style:solid;
-    
 }
 .img-flex {
     width:100%;
